@@ -1,0 +1,179 @@
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color: #61122f;
+	font-family: font-family: 'Oxygen', sans-serif;;
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 27px;
+}
+
+#header-nav{
+	background-color: black;
+}
+
+#logo{
+	margin-left: 10px;
+	height: 80px;
+}
+
+#restaurant_name{
+	padding-top: 30px; 
+	text-shadow: 1px 1px 1px white;
+}
+
+#nav-list{
+	font-size: 22px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+#nav-list li{
+	padding: 15px;
+}
+
+#jumbotron img{
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+}
+
+#button-3{
+	margin-top: 30px;
+	width: 100%;
+}
+
+#Meun{
+	background: url(../img/menu-tile.jpg) no-repeat;
+	background-position: center;
+
+}
+
+#Specials{
+	background: url(../img/specials-tile.jpg) no-repeat;
+	background-position: center;
+}
+
+#Meun, #Specials, #Map{
+	margin:10px;
+	width: 100%;
+	height: 250px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	position: relative;
+}
+
+#Meun:hover, #Specials:hover, #Map:hover{
+	box-shadow: 0 0 5px white;
+
+}
+
+#Meun span, #Specials span, #Map span{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	font-size: 1.6em;
+	color: white;
+}
+
+footer{
+	margin-top:30px;
+	background-color: black;
+	padding: 20px;
+
+}
+
+
+#Hour , #address ,#contact{
+	line-height: 2;
+}
+
+#Hour span, #address span,#contact span{
+	font-size: 1.2em;
+}
+
+
+
+
+/********** X-Large devices only**********/
+@media (min-width: 1200px) {
+
+#button-3{
+	margin-top: 30px;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer{
+	padding-left: 150px;
+	
+}
+
+} 
+
+/********** Large devices only**********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+#logo{
+	margin-left: 10px;
+	height: 80px;
+}
+  /* End Header */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#logo{
+	margin-left: 10px;
+	height: 80px;
+}
+
+}
+/********** Small devices only **********/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+#logo{
+	margin-left: 10px;
+	height: 80px;
+}
+
+#button-3{
+	width: 320px;
+	margin: 0 auto;
+}
+
+
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 575px) {
+
+#logo{
+	margin-left: 10px;
+	height: 80px;
+}
+
+h1{
+	margin-left: 10%
+}
+
+#restaurant_name{
+	width:200px;
+}
+
+#button-3{
+	width: 280px;
+	margin: 0 auto;
+}
+
+
+}
