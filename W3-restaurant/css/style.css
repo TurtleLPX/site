@@ -96,7 +96,107 @@ footer{
 #Hour span, #address span,#contact span{
 	font-size: 1.2em;
 }
+/**HOME end**/
 
+
+/**Menu**/
+
+h2{
+	font-size: 2em;
+	padding-top: 10px;
+}
+
+#menu_title + div{
+	margin:40px;
+	font-size: 1.2em;
+}
+
+#menu_pic{
+	padding: 0 100px;
+
+}
+
+.single-category{
+	position: relative;
+	margin:15px;
+	width: 200px;
+	height: 200px;
+}
+
+.single-category span{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	font-size: 1.6em;
+	color: white;
+}
+
+.single-category:hover{
+	box-shadow: 0 0 5px white;
+
+}
+
+/**Menu end**/
+
+/**single-category**/
+#single-wrap{
+	padding: 0 50px ;
+}
+
+#single-category{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#single-category hr{
+	width: 90%;
+
+}
+
+#item_left, #item_price{
+	font-size: 1.1em;
+	text-align: right;
+}
+
+#item_pic{
+	position: relative;
+	border:2px solid #3F0C1f;
+	overflow: hidden;
+	padding: 0;
+	margin-left: auto;
+	margin-bottom: 10px;
+	max-width: 250px;
+}
+
+#item_pic div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	text-align: center;
+	background-color: #557c3e;
+}
+
+#item_text{
+	padding-right: 30px; 
+}
+
+#item_title{
+	margin: 0 0 10px;
+}
+
+#item_detail{
+	font-size: .6em;
+	font-style: italic;
+}
+
+
+
+/**single-category end**/
 
 
 
