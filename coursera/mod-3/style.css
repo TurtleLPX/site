@@ -1,0 +1,61 @@
+@charset="UTF-8"
+
+*{
+	padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+}
+
+#navtext{
+  padding: 20px 50px;
+}
+
+header{
+  border:2px solid black;
+}
+
+#wrap{
+	padding: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#wrap h2,h3{
+  padding: 30px;
+}
+
+#single-category{
+  padding: 10px;
+}
+
+#single-category p{
+  height: 700px;
+}
+
+
+
+/********** X-Large devices only} **********/
+@media (min-width: 1200px) {
+}
+
+/********** Large devices only**********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /* End Header */
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Small devices only **********/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575px) {
+
+}
